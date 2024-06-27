@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankita Sharma</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf0e6;
+            color: #333;
+        }
+        header {
+            background-color: #4b0082;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        section {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2rem;
+            color: #4b0082;
+            border-bottom: 2px solid #4b0082;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .contact-info a {
+            color: #4b0082;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ankita Sharma</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a network engineer and a mom. I love travelling.</p>
+    </section>
+
+    <section>
+        <h2>Travel Diary</h2>
+        <p>I have travelled to many places in India, I have been to the Maldives, Dubai, and live in the UK. I have lived in Dundee, Scotland, and visited Edinburgh. I am currently in London.</p>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:Ankita.sharma.er@gmail.com">Ankita.sharma.er@gmail.com</a></p>
+    </section>
+</body>
+</html>
